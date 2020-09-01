@@ -3,14 +3,15 @@ const express = require('express')
 const app = express()
 
 const body = {
-  cb_examSites: [
-    "%27Fresno%27",
-    "%27Los Angeles%27",
-    "%27SF/Oakland%27",
-    "%27Sacramento%27",
-    "%27San Diego%27",
-  ],
-  cb_examTypes: "%27Salesperson%27",
+  // cb_examSites: [
+  //   "Fresno",
+  //   "Los Angeles",
+  //   "SF/Oakland",
+  //   "Sacramento",
+  //   "San Diego",
+  // ],
+  cb_examSites: "Fresno",
+  cb_examTypes: "Salesperson",
   B1: "Get Exam List",
   action : "GO"
 };
